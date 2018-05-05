@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Signup form</title>
+</head>
+<link rel="stylesheet" href="practice01.css">
+
+<script src="practice01.js"> </script>
+
+<body>
+<h2>Signup form</h2>
+<form action= "" method="get" >
+	
+		<strong>Email</strong>   <span id="msg_email">   </span><br>
+		
+		<input type="email" placeholder="Enter email" required="required" id="email" class="input"><br>
+		
+		<strong>Password</strong> <span id="msg_password">  </span><br>
+		
+		<input type="password" placeholder="Enter Password" required="required" id="password" class="input"> <br>
+		
+		<strong>Repeate password</strong> <span id="msg_repeatedpassword">  </span> <br>
+		
+		<input type="password" placeholder="Repeate Password" required="required" id="repeatedpassword" class="input"> <br>
+		
+		<strong>Fullname</strong> <span id="msg_fullname">  </span><br>
+		
+		<input type="text" placeholder="Fullname" required="required" id="fullname" class="input" > <br>
+		
+		<strong>Address(option)</strong> <br>
+		
+		<input type="text"  placeholder="Address" class="input" id="address"> <br>
+		
+		
+		<p>By creating an account you agree to our <a href="">Terms & Privacy</a></p><br>	
+		
+		<input type="reset" value="Cancel" class="cancel">
+		
+		<input type="submit" value="Sign up" class="signup" onClick="return get_data()" >
+		
+	
+</form>
+
+</body>
+
+</html>
